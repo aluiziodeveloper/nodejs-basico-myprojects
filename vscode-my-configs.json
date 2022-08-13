@@ -1,0 +1,58 @@
+{
+  "editor.minimap.enabled": false,
+  "workbench.colorTheme": "Dracula",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.fontSize": 16,
+  "editor.lineHeight": 30,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.renderWhitespace": "boundary",
+  "editor.rulers": [80, 120],
+  "material-icon-theme.activeIconPack": "nest",
+  "material-icon-theme.folders.associations": {
+    "infra": "app",
+    "entities": "class",
+    "schemas": "class",
+    "stores": "ngrx-reducer",
+    "typeorm": "database",
+    "repositories": "mappings",
+    "http": "container",
+    "migrations": "tools",
+    "modules": "stack",
+    "implementations": "core",
+    "dtos": "typescript",
+    "dto": "typescript",
+    "fakes": "mock",
+    "users": "admin",
+    "websockets": "pipe"
+  },
+  "material-icon-theme.files.associations": {
+    "ormconfig.json": "database",
+    "tsconfig.json": "tune",
+    "*.int-spec.ts": "test-ts"
+  },
+  "emmet.syntaxProfiles": { "javascript": "jsx" },
+  "emmet.includeLanguages": { "javascript": "javascriptreact" },
+  "editor.renderLineHighlight": "gutter",
+  "terminal.integrated.fontSize": 16,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "material-ui-snippets.showNotesOnStartup": false,
+  "window.zoomLevel": 1,
+  "javascript.inlayHints.parameterTypes.enabled": false,
+  "typescript.inlayHints.parameterNames.enabled": "all",
+  "typescript.inlayHints.parameterTypes.enabled": false,
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "javascript.inlayHints.enumMemberValues.enabled": true,
+  "javascript.inlayHints.functionLikeReturnTypes.enabled": false,
+  "workbench.editorAssociations": {
+    "*.png": "hediet.vscode-drawio"
+  },
+  "redhat.telemetry.enabled": false
+}
